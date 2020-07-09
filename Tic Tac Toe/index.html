@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+</head>
+
+<body>
+
+        <span>Name</span>
+        <input type="text" placeholder="Player 1" title="First Name" name="firstname" id="firstname1" value="" size="32" maxlength="10" class="name1" autocomplete="off" aria-required="true" tabindex="1">
+       
+        <span class="span2">Name</span>
+        <input type="text" placeholder="Player 2" title="First Name" name="firstname" id="firstname2" value="" size="32" maxlength="10" class="name2" autocomplete="off" aria-required="true" tabindex="1">
+ <h1 class="plnames" id="players"></h1>
+        <table>
+                <tr>
+                        <td><button class="button" id="btn1" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                        <td><button class="button" id="btn2" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                        <td><button class="button" id="btn3" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                </tr>
+                <tr>
+                        <td><button class="button" id="btn4" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                        <td><button class="button" id="btn5" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                        <td><button class="button" id="btn6" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                </tr>
+                <tr>
+                        <td><button class="button" id="btn7" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                        <td><button class="button" id="btn8" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                        <td><button class="button" id="btn9" onmouseout="out(this)" onmouseover="hov(this)"
+                                        onclick="fill(this)"></button></td>
+                </tr>
+        </table>
+        <input type="submit" id="reset" onclick="reset_game()" value="Reset">
+</body>
+<script src="backend.js"></script>
+
+</html>

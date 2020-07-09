@@ -1,0 +1,49 @@
+
+
+body{
+    background-color: black;
+}
+
+
+table{
+
+    background-color: red;
+    width: 583px;
+    height: 583px;
+    margin-left: 414px;
+    margin-top: 94px;
+}
+
+.button{
+
+    color: #50ff86;
+    background-color: cadetblue;
+    width: 194px;
+    height: 211px;
+    font-size: 201px;
+    justify-content: center;
+    padding-left: 19px;
+    padding-bottom: 11px;
+
+}
+
+
+#reset{
+    color: blueviolet;
+    height: 56px;
+    width: 187px;
+    margin-left: 614px;
+    margin-top: 39px;
+    font-size: 37px;
+    border: 2px solid blue;
+    background-color: black;
+    font-family: Courier New;
+    border-radius: 20px;
+}
+
+#reset:hover{
+
+    box-shadow: 0px 0px 55px #005dff,0px 0px 55px #005dff,0px 0px 55px #005dff
+
+}
+
